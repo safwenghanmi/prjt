@@ -9,6 +9,7 @@ import { CURRENT_USER, FAIL_USER, LOAD_USER,  LOGIN_USER, LOGOUT_USER, REGISTER_
 export const register = (newUser) => async (dispatch) => {
     dispatch ({type : LOAD_USER})
     try {
+        console.log(newUser)
         let result = await axios.post("/api/user/register" , newUser)
         dispatch({type : REGISTER_USER , payload : result.data})
     } catch (error) {
