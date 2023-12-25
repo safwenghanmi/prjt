@@ -1,4 +1,4 @@
-.Login {color:rgb(145,195,88) ;
+.Login {color:#4e68c6 ;
     margin-top: 80px; 
     animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s;}
@@ -27,7 +27,7 @@ background-repeat: no-repeat;
 .cadre2{margin-top: 60px;
     font-family: 'Roboto', sans-serif;}
 
-.bouton{background: rgb(145,195,88);
+.bouton{background: #4F69C6;
     background: radial-gradient(circle, rgba(145,195,88,1) 0%, rgba(146,193,86,1) 100%);}
 
 .boutontext{color: white;}    
