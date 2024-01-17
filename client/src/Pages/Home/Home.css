@@ -1,11 +1,18 @@
 .nostech1 {color:#4F69C6 ;
   animation: fadeIn; 
   animation-duration: 3s;
-  margin-top: 30px; 
+  margin-top: 0px; 
 
 
 }
   
+
+.bg{
+  margin-top: -15px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+}
+
 
   
 
@@ -18,8 +25,8 @@
 
 .ContainerHome{
   animation: fadeInLeft; 
-animation-duration: 2s;
-}
+  animation-duration: 2s;
+ }
 
 
 
@@ -29,6 +36,7 @@ animation-duration: 2s;
     width: 2%;
     height: 2%;
   z-index: -1;
+  flex-wrap: wrap;
 }
 }
 

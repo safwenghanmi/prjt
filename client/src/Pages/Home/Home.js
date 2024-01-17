@@ -3,25 +3,25 @@ import { Helmet } from "react-helmet";
 import ContactUs from "../ContactUs/ContactUs";
 import Products from "../Products/Products";
 import "./Home.css";
-import video from "./bannerv.mp4";
+import video from "./videoplayback (2).mp4";
 
 const Home = ({ filtredProducts }) => {
   const myRef = useRef(null);
 
 
   return (
-    <div>
+    <div className="bg">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>NOSTECH</title>
+        <title>FREE SHOP</title>
         <link rel="canonical" />
       </Helmet>
       <h1>
-        <p className="nostech1"> NOSTECH ONLINE SHOP</p>
+        <p className="nostech1">SHOPPING EN LIGNE</p>
       </h1>
       
           <div className="Banner">
-          <video id="video" width={1200} autoPlay loop muted >
+      <video id="video" width={1524} autoPlay loop muted >
   <source src={video} type="video/mp4"/>
 </video>
 

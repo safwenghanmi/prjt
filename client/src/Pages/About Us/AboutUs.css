@@ -1,5 +1,5 @@
 .About {color:#4F69C6 ;
-    margin-top: 80px; 
+    margin-top: 1px; 
     display: flex;
     flex-direction: row;
     animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
@@ -21,6 +21,7 @@
 
 
 .descriptionNormed{
+  color: white;
   width: 900px;
   margin-top: 60px;
   max-width:80%;/*to leave spaces around your text on responsive*/
@@ -46,6 +47,10 @@ margin-bottom: 60px;}
 
 .descrNostech {
   font-weight: bold;
-  color:#4F69C6 ;
+  color:#ffffff ;
 }
 
+.ap{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 20%, rgba(9,9,121,1) 59%, rgba(0,212,255,1) 100%);
+}

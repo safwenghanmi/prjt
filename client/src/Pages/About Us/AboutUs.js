@@ -6,7 +6,7 @@ import "./AboutUs.css";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className="ap">
       <Helmet>
         <meta charSet="utf-8" />
         <title>À PROPOS</title>
@@ -18,13 +18,13 @@ const AboutUs = () => {
         <div className="descriptionNormed">
           <p className="textdescription">
            
-            <span className="descrNostech">NOSTECH</span> 
+            <span className="descrNostech">FREE SHOP</span> 
           </p>
           
           <p className="textdescription">
 
           <span className="destxt"> It's an e-commerce website </span> 
-          specializing in selling laptops allows
+          specializing in selling smart devices allows
         you to easily browse through the selection of products, choose
         the best one that fits your needs, and add it to your shopping
         cart. To finalize your purchase, you'll need to bring your receipt

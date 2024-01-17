@@ -1,8 +1,8 @@
 import React from "react";
 import "./Style1.css";
-import img1 from "./1.png";
-import img2 from "./3.png";
-import img3 from "./2.png";
+import img1 from "./camion-de-livraison.png";
+import img2 from "./soutien.png";
+import img3 from "./reparation-de-machines.png";
 import { Link } from "react-router-dom";
 import facebook from "./facebook.png";
 import info from "./info.png";
@@ -22,19 +22,19 @@ const Footer = () => {
       <div className="Info">
         <div>
           <img src={img1} className="Image" alt="livraison" />{" "}
-          <p className="text">
+          <p className="t1">
             Livraison sur le grand tunis 
           </p>
         </div>
         <div>
           <img src={img2} className="Image1" alt="Service client" />{" "}
-          <p className="text">
+          <p className="t1">
             Service client 
           </p>
         </div>
         <div>
           <img src={img3} className="c" alt="c" />
-          <p className="c-text">
+          <p className="t11">
           repair et maintenance <br></br>
           </p>
         </div>
@@ -80,12 +80,12 @@ const Footer = () => {
                 <br />
                 <a
                   target="_blank"
-                  href="https://www.facebook.com/hamza.kefi1/"
+                  href=""
                   className="path"
                   rel="noreferrer"
                 >
                   <img src={facebook} className="ico" alt="img" />
-             facebook.com/hamza.kefi1
+             facebook.com/safwen.ghanmi
                 </a>
               </div>
             </div>
@@ -96,12 +96,12 @@ const Footer = () => {
 
               <a href="tel:+216-78443500" className="path">
                 <img src={phone} className="ico" alt="img" />
-                Tél : (+216) 58 59 07 17
+                Tél : (+216) 27 422 987
               </a>
-              <a href="mailto: kefihamza23.hamza@gmail.com" className="path">
+              <a href="mailto:info.ghanmisafwen@gmail.com" className="path">
                 <p>
                   <img src={mail} className="ico" alt="img" /> Mail:
-                  kefihamza23.hamza@gmail.com
+                  info.ghanmisafwen@gmail.com
                 </p>
               </a>
               <a
@@ -120,7 +120,7 @@ const Footer = () => {
           <hr />
           <div className="row">
             <p className="col-sm">
-              &copy;{new Date().getFullYear()} NOSTECH | All rights reserved |
+              &copy;{new Date().getFullYear()} FREE SHOP | All rights reserved |
               Terms Of Service | Privacy
             </p>
           </div>

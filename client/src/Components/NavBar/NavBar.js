@@ -9,7 +9,7 @@ import {
   Dropdown,
 } from "react-bootstrap";
 import "./Style.css";
-import img from "./logo.png";
+import img from "./Capture d’écran 2024-01-15 230141-PhotoRoom.png-PhotoRoom.png";
 import { useDispatch, useSelector } from "react-redux";
 import userico from "./user.png";
 
@@ -49,28 +49,29 @@ const NavBar = ({inputSearch,setInputSearch}) => {
     <header className="NavBar">
       
       <Navbar expand="lg" className="v1">
-        <Container  fluid>
+        <Container fluid>
          
-        <Nav.Link href="/">  <img src={img} height="70px" style={{ marginLeft:"80%" }}className="nostech" alt="nostech" />
+        <Nav.Link href="/">  <img src={img} height="80px"  style={{ marginLeft:"10%" }}className="nostech" alt="nostech" />
           </Nav.Link>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px",margin:"12%" }}
+              style={{ maxHeight: "50px",margin:"12%" }}
               navbarScroll
             >
-              <Nav.Link href="/Produits">
-                <span className="v4">Nos Produits</span>
+              <Nav.Link href="/Produits" style={{width:'200px'}}>
+                <span className="v4" >Nos Produits</span>
               </Nav.Link>
 
-              <Nav.Link href="/Aproposdenous">
+              <Nav.Link href="/Aproposdenous" style={{width:'250px'}}>
                 {" "}
                 <span className="v4">À propos de nous</span>
               </Nav.Link>
               <Form className="search">
-                <FormControl type="search" placeholder="Chercher un produit" value={inputSearch}
-                onChange={handleChange}/>
+               
+                <input class="input" type="search" placeholder="Chercher produit ..." value={inputSearch}
+                onChange={handleChange} ></input>
               </Form>
               {isAuth ? (
                 <div className="logout">

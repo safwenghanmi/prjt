@@ -1,5 +1,9 @@
 
-.inscription{margin-left: 266px;
+
+
+.inscription{
+  margin-left: 200px;
+  margin-right: 40px;
 display: flex;
 flex-direction: row;
 }
@@ -34,13 +38,13 @@ flex-direction: row;
     margin-right : 6px;
 } 
 
-.search{margin-left: 80px;}
+.search{margin-left: 30px;}
 
 .v1{box-shadow:0px 2px 6px #4F69C6;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     letter-spacing :1.7px;
-    background-color:   white;;
+    background-color:   rgb(4, 0, 30);;
 
 }
 
@@ -98,3 +102,65 @@ padding-bottom: 10px;}
 
 .clock {width: 10px;
 margin-right: 3px;}
+
+
+
+.v4 {
+    font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  .v4:focus,
+  .v4:hover {
+    color: #c8b5b5;
+  }
+  
+  .v4:focus:after,
+  .v4:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .v4:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #5521ff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+
+  .input {
+    border: 2px solid transparent;
+    width: 15em;
+    height: 2.5em;
+    padding-left: 0.8em;
+    outline: none;
+    overflow: hidden;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+  
+  .input:hover,
+  .input:focus {
+    border: 2px solid #4A9DEC;
+    box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+    background-color: white;
+  }
+  
